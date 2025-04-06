@@ -2,101 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BFT Token - BrightFuture Token</title>
+  <title>BrightFuture Token (BFT)</title>
   <style>
     body {
+      background-color: #121212;
+      color: #fff;
+      font-family: Arial, sans-serif;
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0f0f0f;
-      color: #ffffff;
-      line-height: 1.6;
+      padding: 0;
     }
-
     header {
-      background-color: #1e1e1e;
+      background-color: #1f1f1f;
       padding: 20px;
       text-align: center;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     }
-
-    header h1 {
-      font-size: 2.5rem;
-      margin: 0;
+    h1 {
       color: #00ffcc;
     }
-
-    main {
-      padding: 30px 20px;
+    .container {
+      padding: 40px;
       max-width: 800px;
       margin: auto;
       text-align: center;
     }
-
-    main h2 {
-      color: #00e6e6;
-      font-size: 1.8rem;
-    }
-
-    .button {
-      display: inline-block;
-      margin: 15px 10px;
-      padding: 12px 25px;
-      font-size: 16px;
-      color: #fff;
-      background: linear-gradient(135deg, #00ffaa, #0055ff);
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: background 0.3s ease;
+    a {
+      color: #00ffcc;
       text-decoration: none;
     }
-
-    .button:hover {
-      background: linear-gradient(135deg, #00cc88, #0044cc);
-    }
-
-    .contract {
-      background-color: #1a1a1a;
-      padding: 20px;
-      border-radius: 10px;
-      margin-top: 25px;
-      word-wrap: break-word;
-      border: 1px solid #333;
-    }
-
-    footer {
-      background-color: #1e1e1e;
-      padding: 15px;
-      text-align: center;
-      margin-top: 40px;
-      color: #888;
-      font-size: 14px;
+    .btn {
+      background-color: #00ffcc;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>BrightFuture Token (BFT)</h1>
+    <h1>Welcome to BrightFuture Token (BFT)</h1>
   </header>
-
-  <main>
-    <h2>Welcome to the Future of Finance</h2>
-    <p>BFT is a decentralized token on the Binance Smart Chain designed to empower innovation and create lasting impact.</p>
-
-    <a href="https://pancakeswap.finance/swap?outputCurrency=0xc1172365f5d9576dd209236b5abc2090a118e81c" target="_blank" class="button">Buy on PancakeSwap</a>
-    <a href="https://bscscan.com/token/0xc1172365f5d9576dd209236b5abc2090a118e81c" target="_blank" class="button">View on BscScan</a>
-
-    <div class="contract">
-      <strong>Contract Address:</strong><br>
-      0xc1172365f5d9576dd209236b5abc2090a118e81c
-    </div>
-  </main>
-
-  <footer>
-    &copy; 2025 BrightFuture Token. All rights reserved.
-  </footer>
-
+  <div class="container">
+    <p>Your gateway to a decentralized and bright future.</p>
+    <p>Token Contract: <code>0xc1172365f5d9576dd209236b5abc2090a118e81c</code></p>
+    <a class="btn" href="https://pancakeswap.finance/swap?outputCurrency=0xc1172365f5d9576dd209236b5abc2090a118e81c" target="_blank">Buy BFT on PancakeSwap</a>
+  </div>
 </body>
 </html>
